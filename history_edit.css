@@ -10312,10 +10312,6 @@ body[data-locale] .b-new_marker.off:hover {
 	}
 }
 
-.c-history {
-	display: none !important;
-}
-
 .p-profiles .lifetime {
 	margin-bottom: 0;
 	min-height: 0;
