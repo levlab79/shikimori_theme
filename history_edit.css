@@ -10289,13 +10289,13 @@ body[data-locale] .b-new_marker.off:hover {
 		overflow: hidden;
 	}
 
-	.p-profiles .profile-head .c-history .entry::before,.p-profiles .profile-head .c-history .entry span.misc {
+	.p-profiles .profile-head .entry::before,.p-profiles .profile-head .c-history .entry span.misc {
 		display: none;
 	}
 }
 
 @media (max-width: 319px) {
-	.p-profiles .profile-head .c-history {
+	.p-profiles .profile-head {
 		position: relative;
 		width: calc(100% + 32px);
 		margin-bottom: 1em;
@@ -10303,13 +10303,17 @@ body[data-locale] .b-new_marker.off:hover {
 }
 
 @media (min-width: 960px) {
-	.p-profiles .profile-head .c-history {
+	.p-profiles .profile-head {
 		display: block;
 		position: relative;
 		margin-top: 8px;
 		margin-left: 56px;
 		z-index: 1;
 	}
+}
+
+.c-history {
+	display: none !important;
 }
 
 .p-profiles .lifetime {
