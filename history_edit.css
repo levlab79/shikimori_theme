@@ -3139,7 +3139,6 @@ text,.highcharts-tooltip text tspan:last-child {
 }
 
 .b-block_list li {
-	display: none;
 	padding: 0 .5rem;
 	margin: 0 -.5rem;
 	color: var(--color-text-secondary);
