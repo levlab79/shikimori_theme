@@ -10313,7 +10313,7 @@ body[data-locale] .b-new_marker.off:hover {
 }
 
 .c-history {
-	display: none;
+	display: none !important;
 }
 
 .p-profiles .lifetime {
